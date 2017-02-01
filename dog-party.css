@@ -1,0 +1,154 @@
+body {
+  width:960px;
+  margin:0px auto 0px auto;
+  font-family:Arial, Veranda, sans-serif;
+}
+
+nav {
+  background-color:#87e4f2;
+  border-top-color:#79919b;
+  border-top-style:solid;
+  border-top-width:2px;
+  text-align:left;
+  height:50px
+}
+
+img {
+  border-radius:100%;
+  border-width:4px;
+  border-style:solid;
+  border-color:#268399;
+  width:150px;
+  height:150px;
+}
+
+li {
+  float:left;
+}
+
+li a {
+  display: inline-block;
+  position:relative;
+  top:13px;
+  left:740px;
+  text-align: center;
+  padding: 2px 15px;
+  text-decoration: none;
+  color:#ffffff;
+}
+
+h1 {
+  margin:0px;
+  height:50px;
+  padding:30px 0px 0px 0px;
+}
+
+h1, h3 {
+  font-weight:normal;
+}
+
+ul {
+  position:relative;
+  top:-63px;
+  right:20px;
+  height:200px;
+  margin:0px;
+  text-decoration:none;
+}
+
+footing {
+  width:960px;
+  height:200px;
+  float:left;
+  text-align:center;
+  background-color:#268399;
+  color:#ffffff;
+}
+
+.nav-image {
+  width:40px;
+  height:40px;
+  border:none;
+  position:relative;
+  top:5px;
+  left:25px;
+}
+
+.heading {
+  background-image:url(images/park.jpg);
+  background-repeat:no-repeat;
+  background-size:960px;
+  text-align:center;
+  height:375px;
+}
+
+.heading-image {
+  display:block;
+  width: 200px;
+  height:200px;
+  margin:0px auto;
+}
+
+.nav {
+  height:50px;
+  width:960px;
+  position:relative;
+  top:-44px;
+  right:0px;
+  list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+.column1, .column2, .column3 {
+  width: 300px;
+  height:500px;
+  float: left;
+  margin: 10px;
+  text-align:center
+}
+
+.column1 {
+  margin:10px 10px 10px auto;
+}
+
+.column3 {
+  margin:10px auto 10px 10px;
+}
+
+.button {
+  display:block;
+  width:120px;
+  margin:20px auto;
+  border-width:3px;
+  border-color:#268399;
+  border-style:solid;
+  text-decoration:none;
+  padding:2px;
+  background-color:#ffffff;
+  color:#268399;
+}
+
+.button:hover {
+  background-color:#d1d1d1;
+}
+
+.button:active {
+  back-ground-color:#d1d1d1;
+  border-color:#373838;
+}
+
+.gitbutton {
+  color:#ffffff;
+  margin: 20px 20px 20px 20px;
+  position: relative;
+  top:-100px;
+}
+
+.social {
+  margin: 2px 20px 2px 20px;
+  border-radius: 10%;
+  border-style:none;
+  height:200px;
+  width:50px;
+}
